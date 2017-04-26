@@ -2,80 +2,87 @@
 
 <html>
 
-    <head>
+  <head>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
 
-        <meta charset="utf-8" />
+      <meta charset="utf-8" />
 
-        <title>Formulaire de demande</title>
+      <title>Formulaire de demande</title>
 
-    </head>
-
-
-    <body>
+  </head>
 
 
-<form action="/ma-page-de-traitement" method="post">
-	<div>
-	    <hr>
-	    <p><h1><img src="/home/user/Github/hackerspoulette/hackerspoulettelogo.png" class="imga">Faire une demande a Hackers - Poulette<img src="/home/user/Github/hackerspoulette/hackerspoulettelogo.png" class="imgb"></h1></p>
-		<hr>
-	</div>
+  <body>
 
-    <div>
+      <form action="/ma-page-de-traitement" method="post">
+  	    
+        <div>
+  	    <hr>
+  	    <p><h1><img src="/home/user/Github/hackerspoulette/hackerspoulettelogo.png" class="imga">Faire une demande a Hackers - Poulette<img src="/home/user/Github/hackerspoulette/hackerspoulettelogo.png" class="imgb"></h1></p>
+  		  <hr>
+  	    </div>
+
+        <div>
         <label for="prenom">Prénom* :</label>
         <input type="text" id="prenom" required/>
-    </div>
-    <div>
+        </div>
+    
+        <div>
         <label for="nom">Nom* :</label>
         <input type="text" id="nom" required/>
-    </div>
-    <div>
+        </div>
+        
+        <div>
         <label for="courriel">Courriel* :</label>
         <input type="email" id="courriel" required/>
-    </div>
-    <div>
-    <label for="pays">Pays* :</label>
-    <select id="pays" name="pays" required>
-      <option value="">Selectionnez un pays</option>
-      <option value="belgique">Belgique</option>
-      <option value="chine">Chine</option>
-      <option value="maroc">Maroc</option>
-      <option value="canada">Canada</option>
-      <option value="mexique">Mexique</option>
-    </select>
-    </div>
-    <div>
-    <label for="genre">Genre* :</label>
-      <input type="radio" name="gender" value="homme"> Homme
-      <input type="radio" name="gender" value="femme"> Femme
-    </div>
-    <div>
-    <label for="sujet">Sujets :</label>
-      <input type="radio" name="gender" value="information"> Information
-      <input type="radio" name="gender" value="femme"> Service après-vente
-      <input type="radio" name="gender" value="plainte"> Plainte
-    </div>
-    <div>
+        </div>
+    
+        <div>
+        <label for="pays">Pays* :</label>
+        <select id="pays" name="pays" required>
+        <option value="">Selectionnez un pays</option>
+        <option value="belgique">Belgique</option>
+        <option value="chine">Chine</option>
+        <option value="maroc">Maroc</option>
+        <option value="canada">Canada</option>
+        <option value="mexique">Mexique</option>
+        </select>
+        </div>
+    
+        <div>
+        <label for="genre">Genre* :</label>
+        <input type="radio" name="gender" value="homme"> Homme
+        <input type="radio" name="gender" value="femme"> Femme
+        </div>
+   
+        <div>
+        <label for="sujet">Sujets :</label>
+        <input type="radio" name="gender" value="information"> Information
+        <input type="radio" name="gender" value="femme"> Service après-vente
+        <input type="radio" name="gender" value="plainte"> Plainte
+        </div>
+    
+        <div>
         <label for="message">Message* :</label>
         <textarea id="message" required></textarea>
-    </div>
+        </div>
 
-    <div class="button">
+        <div class="button">
         <button type="submit">Envoyer votre demande</button>
-    </div>
-    <div>
-	<p>(*)champs obligatoire(*)</p>
-    </div>
-    <div>
-	    <hr>
-		<p class="test"><img src="https://img.over-blog-kiwi.com/0/99/16/51/20170410/ob_0ce843_88d5c754.gif" class="imgc">Merci de bien vérifier vos réponses dans le formulaire.</br>Nous lisons et répondons a tous les messages.</p>
-		<hr>
-	</div>
-
-</form>
+        </div>
     
-    </body>
+        <div>
+	      <p>(*)champs obligatoire(*)</p>
+        </div>
+        <div>
+	      <hr>
+		    <p class="test"><img src="https://img.over-blog-kiwi.com/0/99/16/51/20170410/ob_0ce843_88d5c754.gif" class="imgc">Merci de bien vérifier vos réponses dans le formulaire.</br>Nous lisons et répondons a tous les messages.</p>
+		    <hr>
+	      </div>
+
+      </form>
+    
+  </body>
 
 </html>
